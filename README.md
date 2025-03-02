@@ -1,5 +1,7 @@
 # Detección de Anomalías en Patentes Vehiculares
 
+**Nota: Este proyecto es una prueba de concepto (PoC) desarrollada mayoritariamente con la asistencia de Claude 3.7 Sonnet.**
+
 Este proyecto implementa un sistema de detección de anomalías para el análisis de pagos de patentes vehiculares en la comuna de Arica. Utilizando técnicas de Machine Learning no supervisado, específicamente Isolation Forest, el sistema identifica patrones inusuales en las transacciones diarias que podrían requerir atención especial.
 
 ## Descripción
@@ -110,6 +112,16 @@ El análisis identificó tres tipos principales de anomalías:
 3. **Anomalías de composición:** Días con mezcla inusual de tipos de vehículos o canales de pago
 
 Los factores más determinantes para detectar anomalías fueron los cambios porcentuales en el número de transacciones y en los montos totales, muy por encima de otros indicadores como los Z-scores.
+
+## Desarrollo con IA
+
+Este proyecto fue desarrollado como una prueba de concepto (PoC) utilizando la asistencia de Claude 3.7 Sonnet para:
+- Generar el código de análisis de datos y modelado
+- Desarrollar visualizaciones avanzadas
+- Crear la estructura del reporte Quarto
+- Interpretar los resultados y formular recomendaciones
+
+El uso de IA permitió implementar rápidamente técnicas avanzadas de detección de anomalías multidimensionales y producir un análisis detallado con visualizaciones profesionales.
 
 ## Próximos Pasos
 
