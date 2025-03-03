@@ -4,6 +4,8 @@
 
 Este proyecto implementa un sistema de detección de anomalías para el análisis de pagos de patentes vehiculares en la comuna de Arica. Utilizando técnicas de Machine Learning no supervisado, específicamente Isolation Forest, el sistema identifica patrones inusuales en las transacciones diarias que podrían requerir atención especial.
 
+Datos utilizados https://datos.gob.cl/dataset/permisos-de-circulacion-vehicular-enero-2025
+
 ## Descripción
 
 El análisis de patentes vehiculares proporciona información valiosa sobre:
